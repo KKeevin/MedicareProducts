@@ -1,0 +1,25 @@
+db.mdb的資料如下:
+INSERT [dbo].[order] ([ser], [id], [item], [writeTime]) VALUES (1, 20005, 101, NULL)
+INSERT [dbo].[order] ([ser], [id], [item], [writeTime]) VALUES (2, 20005, 102, NULL)
+INSERT [dbo].[order] ([ser], [id], [item], [writeTime]) VALUES (3, 20005, 105, NULL)
+INSERT [dbo].[order] ([ser], [id], [item], [writeTime]) VALUES (4, 20003, 102, NULL)
+INSERT [dbo].[order] ([ser], [id], [item], [writeTime]) VALUES (5, 20003, 105, NULL)
+INSERT [dbo].[order] ([ser], [id], [item], [writeTime]) VALUES (6, 20002, 101, NULL)
+INSERT [dbo].[order] ([ser], [id], [item], [writeTime]) VALUES (7, 20002, 102, NULL)
+INSERT [dbo].[order] ([ser], [id], [item], [writeTime]) VALUES (8, 20002, 103, NULL)
+INSERT [dbo].[order] ([ser], [id], [item], [writeTime]) VALUES (9, 20001, 101, NULL)
+INSERT [dbo].[order] ([ser], [id], [item], [writeTime]) VALUES (10, 20001, 102, NULL)
+INSERT [dbo].[order] ([ser], [id], [item], [writeTime]) VALUES (11, 20001, 103, NULL)
+INSERT [dbo].[order] ([ser], [id], [item], [writeTime]) VALUES (12, 20007, 102, NULL)
+
+目前Data.txt的資料如下:
+^SS^T01200001^T0220230808000740^T03_SS
+^SS^T01200002^T0220230808000740^T03_SS
+^SS^T01200003^T0220230808000740^T03_SS
+^SS^T01200004^T0220230808000740^T03_SS
+^SS^T01200005^T0220230808000740^T03_SS
+^SS^T01200006^T0220230808000740^T03_SS
+^SS^T01200007^T0220230808000740^T03_SS
+
+
+我想要透過Data.txt的T01200001 去
